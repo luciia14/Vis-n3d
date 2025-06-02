@@ -1,4 +1,4 @@
-ef ransac_fundamental_matrix(x1, x2, threshold=1.0, max_iters=2000): #
+def ransac_fundamental_matrix(x1, x2, threshold=1.0, max_iters=2000): #
     best_F = None
     best_inliers = None
     max_inliers_count = 0
