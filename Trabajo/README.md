@@ -38,7 +38,7 @@ pip install -r requirements.txt
 python main.py
 2. Asegúrate de tener las imágenes de entrada en el directorio data/ o ajusta las rutas en el código según sea necesario.
 
-##Resultados
+## Resultados
 -Matriz Fundamental 𝐹: Calculada y validada con éxito mediante RANSAC.
 -Rectificación Estereoscópica:  Tras aplicar la rectificación estéreo sin calibración, las imágenes fueron alineadas de modo que las líneas epipolares son horizontales.
 -Nube de Puntos 3D: Generada a partir de la disparidad calculada y visualizada correctamente.
